@@ -63,4 +63,14 @@ $(document).ready(function () {
 					autoplaySpeed: 1000,
 					easing: true,
 				},
-			
+			},
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		],
+	});
+	// $('.slider').on('afterChange', function (event, slick, currentSlide) {
+	// 	console.log(currentSlide);
+	// });
+	// $('.slider').slick('setPosition');
+});
